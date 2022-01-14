@@ -2,7 +2,7 @@ import numpy as np
 import pickle 
 import streamlit as st
 
-loaded_model = pickle.load(open('D:/Diabetes Classifer/trained_model.sav','rb'))
+loaded_model = joblib.load(filename)
 
 #let us create a function for the web app
 
