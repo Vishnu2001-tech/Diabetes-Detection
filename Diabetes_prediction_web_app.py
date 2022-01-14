@@ -2,7 +2,7 @@ import numpy as np
 import joblib
 import streamlit as st
 
-loaded_model = joblib.load(filename)
+loaded_model = joblib.load('trained_model.sav')
 
 #let us create a function for the web app
 
